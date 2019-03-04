@@ -72,6 +72,8 @@ public class AboutAssertions {
         assertSame(original, same);
     }
 
+    9kunbybyyb
+    nniomimomom
     @Koan
     public void assertNotSameInstance() {
         Integer original = new Integer(1);
