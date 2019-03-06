@@ -26,15 +26,15 @@ public class AboutConstructors {
 
     @Koan
     public void simpleConstructorOrder() {
-        assertEquals(new B().someString, __);
+        assertEquals(new B().someString, "axg");
     }
 
     class Aa {
         String someString = "a";
 
-        public Aa() {
-            someString += "x";
-        }
+        // public Aa() {
+        //     someString += "x";
+        // }
 
         public Aa(String s) {
             someString += s;
@@ -51,7 +51,7 @@ public class AboutConstructors {
 
     @Koan
     public void complexConstructorOrder() {
-        assertEquals(new Bb().someString, __);
+        assertEquals(new Bb().someString, "aBoog");
     }
 
 }
